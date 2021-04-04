@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-Do-List Coding Project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Plugins.css -->
+	<link rel="stylesheet" href="plugins.css">
+	<!-- Google Fonts https://fonts.google.com/ -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
+		https://daneden.github.io/animate.css/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<!-- jQuery https://code.jquery.com/ -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+	<!-- Bootstrap JS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- NAVIGATION -->
+
+<div id="content-mobile">
+        <img src="images/Logo.png" class="logo" alt="Logo">
+        <h1 id="content-mobile-headline">This website is best viewed on a desktop.</h1>
+        <p>In order for you to see the best version of my work, including the prototypes, please view my portoflio on a desktop.</p>
+</div>
+
+<div id="content-desktop">
+
+<header>
+        <a href="index.html" class="navbar-brand"><img src="images/Logo.png" class="logo" alt="Logo"></a>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/index.html#projects">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://drive.google.com/file/d/1fqp4-u37Q0u90RLLZzpeUVyLe_3El1h_/view?usp=sharing">Resume</a></li>
+            </ul>
+        </nav>
+</header>
+
+
+
+<!-- BACKGROUND -->
+    <div class="project-image">
+        <img src="images/Projects/Cover-Todolist.jpeg" alt="">
+    </div>
+            
+    <div class="container-projects">
+        <h1 class="project-title">Responsive To-Do-List made with React</h1>
+        <div class="project-flex-container">
+            <div class="projects-flex projects-flex-left">
+                <h5>Background</h5>
+                <p>I have taken online classes to learn more about ReactJS - an open-source Javascript Library during the Circuit Breaker to continue expanding my programming knowledge.</p>
+                <p>To practice and hone this new skill, I have built this simple and classic responsive To-Do list.</p>
+                <a href="https://angeluidev.github.io/my-to-do-list/"><button class="button">View Website</button></a>
+            </div>
+            <div class="projects-flex">
+                    <h5>Role</h5>
+                    <p>Interface Design, Front-end programming</p>
+                    <h5>Tools</h4>
+                    <p>HTML5, CSS3, React</p>
+            </div>
+        </div>
+    </div>
+
+<!-- ARROWS -->
+<div class="container-projects">
+        <div class="project-flex-container">
+                <a href="/index.html#projects" class="projects-flex"><h4 id="arrow-left"><span><i class="fas fa-arrow-left"></i></span><em>All Projects: Go back</em></h4></a>
+                <a href="rentlah.html" class="projects-flex"><h4 id="arrow-right"><em>See next: RentLah, find your next rental home.</em> <span><i class="fas fa-arrow-right"></i></span></h4></a>
+        </div>
+</div>
+
+<!-- FOOTER -->
+
+    <footer>
+        <div class="footer-flex-container">
+            <div class="footer-flex-column footer-navigation" id="footer-bottom">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/index.html#projects">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://drive.google.com/file/d/1fqp4-u37Q0u90RLLZzpeUVyLe_3El1h_/view?usp=sharing">Resume</a></li>
+                </ul>
+            </div>
+            <div class="footer-flex-column" id="footer-bottom">
+                <a href="index.html"><img src="images/Logo.png" class="footer-logo"  alt=""></a>
+            </div>
+            <div class="footer-flex-column last-row">
+                <h3>Contact</h3>
+                <ul>
+                        <li>
+                        <a href="https://www.linkedin.com/in/angel-ramirez-757218a1/">LinkedIn</a>
+                        </li>
+                        <li><a href="mailto:angel.uidev@gmail.com">angel.uidev@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="bottom-footer">
+            <h4 id="float-left">SITE BY ANGEL RAMIREZ</h4>
+            <a href="#"><h4 id="float-right">Back to the top <span><i class="fas fa-arrow-up"></i></span></h4> </a>
+        </div>
+    </footer>
+</div>
+
+
+	<!-- Script Source Files -->
+
+	<!-- Plugins.js -->
+	<script src="js/plugins.js"></script>
+	<!-- Waypoints https://cdnjs.com/libraries/waypoints
+		https://github.com/imakewebthings/waypoints -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.11.2/js/all.js -->
+	<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+	<!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+	
+	<!-- End of Script Source Files -->
+
+</body>
+</html>

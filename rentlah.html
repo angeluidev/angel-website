@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RentLah Case Study</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Plugins.css -->
+	<link rel="stylesheet" href="plugins.css">
+	<!-- Google Fonts https://fonts.google.com/ -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
+		https://daneden.github.io/animate.css/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<!-- jQuery https://code.jquery.com/ -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+	<!-- Bootstrap JS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- NAVIGATION -->
+
+<div id="content-mobile">
+        <img src="images/Logo.png" class="logo" alt="Logo">
+        <h1 id="content-mobile-headline">This website is best viewed on a desktop.</h1>
+        <p>In order for you to see the best version of my work, including the prototypes, please view my portoflio on a desktop.</p>
+</div>
+
+<div id="content-desktop">
+
+
+<header>
+        <a href="index.html" class="navbar-brand"><img src="images/Logo.png" class="logo" alt="Logo"></a>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/index.html#projects">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+        </nav>
+</header>
+
+<!-- BACKGROUND -->
+    <div class="project-image">
+        <img src="images/Projects/Cover-RentLah.png" alt="">
+    </div>
+            
+    <div class="container-projects">
+        <h1 class="project-title">Rentlah</h1>
+        <div class="project-flex-container">
+            <div class="projects-flex projects-flex-left">
+                <h5>Background</h5>
+                <p>Rentlah is a concept project for a 4-week UI Design short course that Designlab offers. It’s the re-imagined user experience of finding a rental home in Singapore. Borne by a first-hand, recent and frustrating house hunting experience - I designed a platform that will directly connect renters to property owners. It cuts the middlemen, therefore eliminating hefty agent fees and commissions on both sides.
+                </p>
+            </div>
+            <div class="projects-flex">
+                    <h5>Role</h5>
+                    <p>Product Design, Research, Interaction and Visual Design, Wire-framing and Prototyping.</p>
+                    <h5>Tools</h4>
+                    <p>Sketch, Invision</p>
+            </div>
+        </div>
+    </div>
+
+<!-- PROBLEM STATEMENT -->
+    <hr>
+    <div class="container-projects">
+        <div class="projects-line">
+            <h5>Understanding the problem</h5>
+            <p>I drew from my personal experience of recently finding a rental home in Singapore. I also interviewed a handful of friends who have moved house to further understand the pain points. Based on these conversations and self-reflections, I found out:</p>
+            <p>- Renters would like to save the extra money they spend in paying the real estate agent who found the rental home for them. The commission usually amounts to 1 to 2 months’ rent.</p>
+            <p>- Renters are often bombarded with personal questions from agents as part of the verification and background check process, but the renters don’t have any idea about their landlord’s background. 
+            </p>
+        </div>
+    </div>
+
+<!-- PRODUCT VISION AND SOLUTION -->
+    <hr>
+    <div class="container-projects">
+        <div class="projects-line">
+            <h5>Product Vision and Solution</h5>
+            <p>Inspired by the platform model of matching demand and supply, similar to Grab and Airbnb, the product’s vision is to connect eligible renters to verified property owners. The platform is specifically designed for rental homes, targeting to solve a specific set of needs and challenges.</p>
+            <p>As a next step, I conducted some market research on competitors to investigate the current offerings and ideate based on features they lack that my target audience will appreciate.</p>
+            <h5>Competitive Analysis</h5>
+            <p>There are 3 main players in the property tech (proptech) scene in Singapore. Two of which are online property listings and the other is a co-living housing option</p>
+        </div>
+    </div>
+
+
+<!-- COMPETITORS -->
+
+
+        <div class="competitor-flex-container">
+                <div class="footer-flex-column footer-navigation competitor" id="align-left">
+                    <div><img src="images/Projects/propertyguru.jpeg" class="competitor-logo" alt=""></div>
+                    <h5>Property Guru</h5>
+                    <h6>Pros:</h6>
+                    <p>- Largest property listing in Singapore ranging from residential, landed properties and commercial spaces.</p>
+                    <p>- Has gained top-of-mind awareness of consumers.</p>
+                    <h6>Cons</h6>
+                    <p>- 90% of properties are managed by agents.</p>
+                    <p>- Focuses heavily on the property itself, but it doesn’t share details about the background and vibe of the community.</p>
+                </div>
+        
+                <div class="footer-flex-column footer-navigation competitor" id="align-left">
+                        <div><img src="images/Projects/99.png" class="competitor-logo" alt=""></div>
+                        <h5>99.co</h5>
+                        <h6>Pros:</h6>
+                        <p>- Offers a map-based search engine that uses algorithms, enabling users to find houses, condominiums and apartments for buyers and renters.</p>
+                        <h6>Cons</h6>
+                        <p>- 80 to 90% of properties are managed by agents.</p>
+                        <p>- Similar to PropertyGuru, they don’t share a lot of deatils about the communities the properties are situated in.</p>
+                </div>
+        
+                <div class="footer-flex-column footer-navigation last-row competitor" id="align-left">
+                        <div><img src="images/Projects/hmlet.png" class="competitor-logo" alt=""></div>
+                        <h5>Hmlet</h5>
+                        <h6>Pros:</h6>
+                        <p>- Fully furnished apartments and aesthetically pleasing interiors.</p>
+                        <p>- Rent typically covers bills, regular cleaning.</p>
+                        <p>- Provides community spaces where you can hangout with like-minded people.</p>
+                        <h6>Cons</h6>
+                        <p>- Limited locations, usually near Business Districts.</p>
+                        <p>- Rent can be quite expensive.</p>
+                        <p>- Pay for services you don’t necessarily need (ex. cleaning)</p>
+                        <p>- If you’re renting a room, you can not choose your flatmates.</p>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+<!-- QUOTES FROM INTERVIEWS -->
+
+    <div class="container-projects">
+        <h5>Quotes from interviews</h5>
+        <div class="project-flex-container">
+                <div class="projects-flex projects-flex-left">
+                    <div class="quotes">
+                            <p>“I just hate having to pay agent fees. 1 to 2 months of my rent? That’s just super unreasonable.”</p>
+                            <p><em>- Patrick, 29 y/o, Cybersecurity Specialist</em></p>
+                    </div>
+                </div>
+                <div class="projects-flex">
+                    <img src="images/Profiles/RentLah-Patrick.jpg" class="about-image" alt="">
+                </div>
+        </div>
+    </div>
+
+    <div class="container-projects">
+            <div class="project-flex-container">
+                    <div class="projects-flex projects-flex-left">
+                        <div class="quotes">
+                                <p>“I think it’s unfair that they know so much about me, but I don’t know anything about them. It’s a one-sided process.”</p>
+                                <p><em>- Camille, 27 y/o, Sales Executive.</em></p>
+                        </div>
+                    </div>
+                    <div class="projects-flex">
+                        <img src="images/Profiles/RentLah-Camille1.jpeg" class="about-image" alt="">
+                    </div>
+            </div>
+        </div>
+
+<!-- PERSONA -->
+
+<hr>
+<div class="container-projects">
+    <div class="projects-line">
+        <h5>Persona</h5>
+        <p>Sam Ramos, a Digital Marketing Manager in his late 20s who’s looking to find an entire flat to rent with his long-term partner. He’s earning a decent 70K SGD per year. Since he’s still working from home, Sam is looking for a reasonably priced rental home with 1 bedroom and a study room so he can set up his own working space. The place should be in a neighbourhood that’s close to cafes, parks and greenery with all the amenities suited for him and his partner’s active lifestyle.</p>
+    </div>
+</div>
+
+<!-- SPECIFIC PERSONA -->
+
+<div class="footer-flex-container">
+        <div class="footer-flex-column footer-navigation" id="align-left">
+            <div><img src="images/Profiles/RentLah-Sam.jpg" class="about-image" alt=""></div>
+        </div>
+
+        <div class="footer-flex-column footer-navigation persona" id="align-left">
+                <h5>Personal Background</h5>
+                <p>Age: 29 years old</p>
+                <p>Status: In a serious relationship with a long-term partner</p>
+                <p>Education: MBA</p>
+                <h5>Professional Background</h5>
+                <p>Occupation: Senior Digital Marketing. Manager with 10 years of professional experience </p>
+                <p>Annual income: 70K SGD </p>
+                <h5>User Environment</h5>
+                <p>Location: Office, home</p>
+                <p>Devices: Mostly phone and laptop, occasionally on his ipad.</p>
+        </div>
+
+        <div class="footer-flex-column footer-navigation persona last-row" id="align-left">
+                <h5>Psychographics</h5>
+                <p>- Looking for a place that has the amenities to suit his active lifestyle.</p>
+                <p>- Doesn’t mind spending time on research to save the money that will otherwise go to an agent’s commission.</p>
+                <p>- Prefers a more personable approach and would like to get to know the potential landlord’s background.</p>
+                <p>- Enjoys spending time away from the busy hustle and bustle of city life during off days.</p>
+        </div>
+    </div>
+
+</div>
+
+<!-- DESIGN - STYLE GUIDE, FEEL ETC. -->
+
+<div class="container-projects">
+    <div class="projects-line">
+        <h5>Design</h5>
+        <div class="project-image">
+            <img src="images/Projects/RentLah-Style Guide.png" alt="">
+        </div>
+        <br>
+
+        <h5>Feel</h5>
+        <p>East vs West, North vs South. Singapore, although a small city-state, is very diverse. It has a lot to offer to different people who have various lifestyle preferences. I wanted the overall direction to be very visual and use a lot of photos that helps convey the vibe of the various communities in Singapore.</p>
+        <h5>Font</h5>
+        <p>I chose a font that has a rounder look to evoke a friendlier vibe and look.</p>
+        <h5>Overall Theme</h5>
+        <p>Young, vibrant and energetic.</p>
+    </div>
+</div>
+
+<!-- LINK TO PROTOTYPE -->
+<div class="container-projects">
+    <h5>Prototype</h5>
+    <div class="container">
+        <img src="images/Projects/RentLah-Prototype.jpeg" alt="RentLah Desktop Prototype">
+        <div class="middle">
+            <a href="https://invis.io/B6ZMK0IZK7H"><div class="text">View Prototype</div></a>
+        </div>
+    </div>
+    <div class="container">
+            <img src="images/Projects/RentLah-Mobile-Prototype.jpeg" alt="RentLah Mobile Prototype">
+            <div class="middle">
+                <a href="https://invis.io/GUZMJZ62683#/439553426_Mobile_Landing_Page"><div class="text">View Prototype</div></a>
+            </div>
+    </div>
+</div>
+
+<!-- PHOTOS -->
+    <div class="project-image">
+            <img src="images/Projects/RentLah-Mobile.png" alt="">
+    </div>
+
+
+<!-- USABILITY TESTING -->
+
+<hr>
+<div class="container-projects">
+    <div class="projects-line">
+        <h5>Usability Testing</h5>
+        <p>I wanted to ensure that this product is solving a real-world problem, so I reached out to a handful of friends and pitched this to them.</p>
+        <p>I also conducted a usability testing on the specific user journey of finding a property to viewing the details and messaging the landlord. The testers noted that the signs to go through these user journeys were clear. They knew which buttons to click, paving way for 100% completion rate.</p>
+    </div>
+</div>
+
+<!-- QUOTES FROM UT -->
+<hr>
+<div class="container-projects">
+        <h5>Quotes from Usability Testing</h5>
+        <div class="project-flex-container">
+                <div class="projects-flex projects-flex-left">
+                    <div class="quotes">
+                            <p>“There were no confusing parts. The flow makes sense. I don’t have to find where to view the property or how to contact the landlord, it’s where I expect it to be.”</p>
+                            <p>“I would prefer to see the more photos of a certain property I’m interested in while I’m on the search page. That way I don’t have to click every single one to see more images.”</p>
+                            <p><em>- Dean, 29 y/o, Senior Cybersecurity Operations Engineer</em></p>
+                    </div>
+                </div>
+                <div class="projects-flex">
+                    <img src="images/Profiles/RentLah-Dean.jpg" class="about-image" alt="">
+                </div>
+        </div>
+    </div>
+
+    <div class="container-projects">
+            <div class="project-flex-container">
+                    <div class="projects-flex projects-flex-left">
+                        <div class="quotes">
+                                <p>“It’s pretty straight forward and the flow is clear to me.”</p>
+                                <p>“I would like to see more photos of the different sides of Singapore. I’d also like to know how conveniently located the property is to the MRT or bus stop - since the location is a big factor for me to consider.”</p>
+                                <p><em>- Camille, 27 y/o, Sales Executive.</em></p>
+                        </div>
+                    </div>
+                    <div class="projects-flex">
+                        <img src="images/Profiles/RentLah-Camille2jpeg.jpeg" class="about-image" alt="">
+                    </div>
+            </div>
+        </div>
+
+<!-- NEXT STEPS AND ITERATIONS -->
+<hr>
+<div class="container-projects">
+        <div class="project-flex-container">
+            <div class="projects-flex projects-flex-left">
+                <h5>Next Steps and Iterations</h4>
+                <p>Based on the usability testing conducted, I’ve uncovered several additional feautures that the users find will add-value to their experience of finding a rental home.</p>
+            </div>
+            <div class="projects-flex next-steps-right">
+                <p>- Make the images in hero banner of the Home page to dynamically change. This gives more visuals of how it’s like living in Singapore.</p>
+                <p>- Add a carousel-like function on the property card in the findings page. This would give a better glimpse of the unit without having to open the property page.</p>
+                <p>- Show the distance of the property from the MRT or bus stop in the property card in the findings page.</p>
+            </div>
+        </div>
+    </div>
+
+
+<!-- ARROWS -->
+<div class="container-projects">
+        <div class="project-flex-container">
+                <a href="/index.html#projects" class="projects-flex"><h4 id="arrow-left"><span><i class="fas fa-arrow-left"></i></span><em>All Projects: Go back</em></h4></a>
+                <a href="glaze.html" class="projects-flex"><h4 id="arrow-right"><em>See next: Glaze Pottery</em> <span><i class="fas fa-arrow-right"></i></span></h4></a>
+        </div>
+</div>
+
+<!-- FOOTER -->
+
+    <footer>
+        <div class="footer-flex-container" id="footer-bottom">
+            <div class="footer-flex-column footer-navigation">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/index.html#projects">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://drive.google.com/file/d/1fqp4-u37Q0u90RLLZzpeUVyLe_3El1h_/view?usp=sharing">Resume</a></li>
+                </ul>
+            </div>
+            <div class="footer-flex-column" id="footer-bottom">
+                <a href="index.html"><img src="images/Logo.png" class="footer-logo"  alt=""></a>
+            </div>
+            <div class="footer-flex-column last-row">
+                <h3>Contact</h3>
+                <ul>
+                        <li>
+                        <a href="https://www.linkedin.com/in/angel-ramirez-757218a1/">LinkedIn</a>
+                        </li>
+                        <li><a href="mailto:angel.uidev@gmail.com">angel.uidev@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="bottom-footer">
+            <h4 id="float-left">SITE BY ANGEL RAMIREZ</h4>
+            <a href="#"><h4 id="float-right">Back to the top <span><i class="fas fa-arrow-up"></i></span></h4> </a>
+        </div>
+    </footer>
+
+</div>
+
+	<!-- Script Source Files -->
+
+	<!-- Plugins.js -->
+	<script src="js/plugins.js"></script>
+	<!-- Waypoints https://cdnjs.com/libraries/waypoints
+		https://github.com/imakewebthings/waypoints -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.11.2/js/all.js -->
+	<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+	<!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+	
+	<!-- End of Script Source Files -->
+
+</body>
+</html>

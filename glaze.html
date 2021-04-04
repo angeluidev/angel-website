@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Glaze Pottery Case Study</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Plugins.css -->
+	<link rel="stylesheet" href="plugins.css">
+	<!-- Google Fonts https://fonts.google.com/ -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
+		https://daneden.github.io/animate.css/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<!-- jQuery https://code.jquery.com/ -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+	<!-- Bootstrap JS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- NAVIGATION -->
+
+<div id="content-mobile">
+        <img src="images/Logo.png" class="logo" alt="Logo">
+        <h1 id="content-mobile-headline">This website is best viewed on a desktop.</h1>
+        <p>In order for you to see the best version of my work, including the prototypes, please view my portoflio on a desktop.</p>
+</div>
+
+<div id="content-desktop">
+
+    <header>
+            <a href="index.html" class="navbar-brand"><img src="images/Logo.png" class="logo" alt="Logo"></a>
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/index.html#projects">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://drive.google.com/file/d/1fqp4-u37Q0u90RLLZzpeUVyLe_3El1h_/view?usp=sharing">Resume</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <!-- BACKGROUND -->
+        <div class="project-image">
+            <img src="images/Projects/Cover-Glaze.jpeg" alt="">
+        </div>
+                
+        <div class="container-projects">
+            <h1 class="project-title">Glaze Pottery</h1>
+            <div class="project-flex-container">
+                <div class="projects-flex projects-flex-left">
+                    <h5>Background</h5>
+                    <p>The Glaze Pottery app design is a concept project for an imagined pottery studio and community. Glaze Pottery aims to bring together like-minded people who sees arts and crafts as a form of relaxation, even meditation. Users can see and register for the community events and pottery classes via the app. They can also shop for ceramics and handmade decor.</p>
+                </div>
+                <div class="projects-flex">
+                        <h5>Role</h5>
+                        <p>Product Design, Research, Interaction and Visual Design, Wire-framing and Prototyping.</p>
+                        <h5>Tools</h4>
+                        <p>Figma</p>
+                </div>
+            </div>
+            <h5>The Inspiration</h5>
+            <p>It has been over a year since most countries have closed their borders and implemented lockdowns due to the raging pandemic. In light of this, various research have showed that people often reported feeling emotional distress, anxiety and depression with the continued isolation and minimal social connection.</p>
+            <p>While leisure travel is still not allowed in and out of Singapore, the country has controlled the community cases to a minimum which paved the way to easing the lockdown measures. Now, people are looking for things to do to relax, unwind and gain a sense of some normalcy while being stuck in the small city-state.</p>
+        </div>
+
+    <!-- PROBLEM STATEMENT -->
+        <hr>
+        <div class="container-projects">
+            <div class="projects-line">
+                <h5>Understanding the problem</h5>
+                <p>Due to COVID-19, there’s been an increased need for features such as online booking and contactless transactions and payments. Most pottery studios in Singapore do not offer these features. For those who do, either the user interface is not friendly (ex. checking the class schedule and dates on a dropdown list) or it’s not easily visible (ex. class schedule is under a ‘Services’ or ‘Shop’ tab).</p>
+            </div>
+        </div>
+
+    <!-- PRODUCT VISION AND SOLUTION -->
+        <hr>
+        <div class="container-projects">
+            <div class="projects-line">
+                <h5>Product Vision and Solution</h5>
+                <p>Create an E-commerce app for a pottery studio which makes class booking and ceramic shopping accessible and easy for users. To further understand the space, I conducted some market research on competitors and understand the current offerings. </p>
+                <h5>Competitive Analysis</h5>
+                <p>There are several pottery studios in Singapore. Most don’t have online booking systems. For those that have this feature, the user journey is not very intuitive. Here’s a closer look at some of the studios that appeared in the top search results.</p>
+            </div>
+        </div>
+
+
+    <!-- COMPETITORS -->
+            <div class="competitor-flex-container">
+                    <div class="footer-flex-column footer-navigation competitor" id="align-left">
+                        <div><img src="images/Projects/Center pottery.png" class="competitor-logo" alt=""></div>
+                        <h5>Center Pottery</h5>
+                        <h6>Pros:</h6>
+                        <p>- Nice looking landing page.</p>
+                        <p>- Offers mindful pottery classes in partnership with a psychologist. It’s a special pottery course dedicated to people who are experiencing stress.</p>
+                        
+                        <h5>Cons:</h5>
+                        <p>- Does not have an online booking feature.</p>
+                        <p>- Although the schedule of workshops can be seen on the website, the user has to send the studio a message to check on the specific dates.</p>
+                    </div>
+
+                    <div class="footer-flex-column footer-navigation competitor" id="align-left">
+                            <div><img src="images/Projects/Ceramic-house.png" class="competitor-logo" alt=""></div>
+                            <h5>Ceramic House</h5>
+                            <h6>Pros:</h6>
+                            <p>- The website’s information architecture is simple. The navigation tabs correctly labels the content of each page.</p>
+                            <p>- It shows the price of various classes. </p>
+                            <h6>Cons</h6>
+                            <p>- Does not have an online booking feature.</p>
+                            <p>- Does not have instructions on how to book classes.</p>
+                    </div>
+
+                    <div class="footer-flex-column footer-navigation last-row competitor" id="align-left">
+                            <div><img src="images/Projects/School of Clay Arts.png" class="competitor-logo" alt=""></div>
+                            <h5>School of Clay Arts</h5>
+                            <h6>Pros:</h6>
+                            <p>- A lot of written content about pottery, different types of classes, what to expect etc.</p>
+                            <p>- It has an online booking feature.</p>
+                            <h6>Cons</h6>
+                            <p>- The landing page looks more like a brochure or newspaper clipping than a website home page.</p>
+                            <p>- The booking feature shows dates via a dropdown list. </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    <!-- PERSONA -->
+
+    <div class="container-projects">
+        <div class="projects-line">
+            <h5>Persona</h5>
+            <p>Maxine Foo, a junior finance and audit executive in her late 20s, is looking for a new hobby to pick up. She enjoys doing arts and crafts immensenly as it’s the opposite of her everyday work which involves numbers and spreadsheets. She enjoys hanging out with friends, having deep conversations about anything under the sun. She also likes the novelty of meeting new people and trying out different activities.</p>
+        </div>
+    </div>
+
+    <!-- SPECIFIC PERSONA -->
+
+    <div class="footer-flex-container">
+            <div class="footer-flex-column footer-navigation" id="align-left">
+                <div><img src="images/Profiles/Glaze-Maxine.jpg" class="about-image" alt=""></div>
+            </div>
+
+            <div class="footer-flex-column footer-navigation persona" id="align-left">
+                    <h5>Personal Background</h5>
+                    <p>Age: 27 years old</p>
+                    <p>Status: Single</p>
+                    <p>Education: Bachelor's Degree in Finance and Accounting</p>
+                    <h5>Professional Background</h5>
+                    <p>Occupation: Junior Finance and Audit Executive with 5 years of experience.</p>
+                    <p>Annual income: 55K SGD </p>
+                    <h5>User Environment</h5>
+                    <p>Location: At home, on the go and in the office.</p>
+                    <p>Devices: Mostly on mobile.</p>
+            </div>
+
+            <div class="footer-flex-column footer-navigation persona last-row" id="align-left">
+                    <h5>Psychographics</h5>
+                    <p>- Loves the novelty that comes with traveling to new places and meeting new people.</p>
+                    <p>- As a finance professional, her day-to-day involves looking at spreadsheets and numbers. To unwind, Maxine loves to explore her creative side by doing arts and crafts ranging from origami, painting, photography etc.</p>
+                    <p>- Likes hanging out with a handful of friends over wine and cheese or bottomless fries and beer where they typically enjoy having deep conversations about life or the latest pop culture trend.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- DESIGN - STYLE GUIDE, FEEL ETC. -->
+
+    <div class="container-projects">
+        <div class="projects-line">
+            <h5>Design</h5>
+            <div class="project-image">
+                <img src="images/Projects/Glaze Pottery moodboard.png" alt="">
+            </div>
+            <br>
+
+            <h5>Feel</h5>
+            <p>I wanted to mimic the handcrafted feel of ceramic art in the visual design of the app. I experimented with organic shapes and blobs and colored them with earthy yet lively tones. </p>
+            <h5>Font</h5>
+            <p>I experimented with 2 font pairings. I used Optima to give the headlines and title an elegant look. I used Avenir for most of the text and body copy for legibility.</p>
+            <h5>Overall Theme</h5>
+            <p>Warm, welcoming and chill.</p>
+        </div>
+    </div>
+
+    <!-- LINK TO PROTOTYPE -->
+    <div class="container-projects">
+        <h5>Prototype</h5>
+            <iframe width="800"
+            height="920" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5R1u09xzRYuZYkNqEVckev%2FGlaze_pottery%3Fnode-id%3D184%253A3045%26scaling%3Dmin-zoom%26page-id%3D184%253A2696"  allowfullscreen></iframe>
+    </div>
+
+    <!-- PHOTOS -->
+        <div class="project-image">
+                <img src="images/Projects/Glaze-Launch.jpeg" alt="">
+        </div>
+        <div class="project-image">
+                <img src="images/Projects/Glaze-HomePage.jpeg" alt="">
+        </div>
+
+    <!-- USABILITY TESTING -->
+    <hr>
+    <div class="container-projects">
+        <div class="projects-line">
+            <h5>Usability Testing</h5>
+            <p>I also conducted a small test on the specific user journey of creating an account and booking a class. The testers noted that the signs to go through these user journeys were clear. There’s a 100% completion of the sign-up without any roadblocks or confusion.</p>
+            <p>However, some users had missed a feature in the class booking step. Most did not notice that clicking the class card will lead them to giving more information about the type of class they’re booking. They clicked straight away on the ‘Book’ button.</p>
+        </div>
+    </div>
+
+    <!-- QUOTES FROM UT -->
+
+    <hr>
+    <div class="container-projects">
+            <h5>Quotes from Usability Testing</h5>
+            <div class="project-flex-container">
+                    <div class="projects-flex projects-flex-left">
+                        <div class="quotes">
+                                <p>“The design is very appealing. Fonts and color are consistent. I like the orange button also - it’s very easy to spot.”</p>
+                                <p>“I did not know that clicking on the class box will show a pop-up of the details. I think the class info is important for first-timers, so I would expect it to be more visible.”</p>
+                                <p><em>- Dean, 29 y/o, Senior Cybersecurity Operations Engineer</em></p>
+                        </div>
+                    </div>
+                    <div class="projects-flex">
+                        <img src="images/Profiles/Glaze-Dean.jpg" class="about-image" alt="">
+                    </div>
+            </div>
+        </div>
+
+        <div class="container-projects">
+                <div class="project-flex-container">
+                        <div class="projects-flex projects-flex-left">
+                            <div class="quotes">
+                                    <p>“It looks nice. The steps are clear. The colors are very pleasing to the eyes.”</p>
+                                    <p>“I don’t know where I can see the class details. Is it on the Booking page or Home page?”</p>
+                                    <p><em>- Gloms, 25 y/o, Transport Specialist</em></p>
+                            </div>
+                        </div>
+                        <div class="projects-flex">
+                            <img src="images/Profiles/Glaze-Glome.jpeg" class="about-image" alt="">
+                        </div>
+                </div>
+            </div>
+
+    <!-- NEXT STEPS AND ITERATIONS -->
+    
+
+
+    <hr>
+    <div class="container-projects">
+            <div class="project-flex-container">
+                <div class="projects-flex projects-flex-left">
+                    <h5>Next Steps and Iterations</h4>
+                    <p>Upon conducting the usability test, I’ve identified a gap in understanding on the class booking journey. All of the users mentioned that reading through the details of the different classes are important for them.</p>
+                    <p>With the current design, it was not immediately visible. Therefore, it can be included as a primary change for the next iteration:</p>
+                </div>
+                <div class="projects-flex next-steps-right">
+                    <p>- Make the information about the different class types more visible and create multiple entry points, for example:</p>
+                    <p><span>&#8226;</span> Add a section in the Home Page to show the info about the different classes.</p>
+                    <p><span>&#8226;</span> Create an additional button on the class card in the Book page to indicate that the user can read the details.</p>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- ARROWS -->
+    <div class="container-projects">
+            <div class="project-flex-container">
+                    <a href="/index.html#projects" class="projects-flex"><h4 id="arrow-left"><span><i class="fas fa-arrow-left"></i></span><em>All Projects: Go back</em></h4></a>
+                    <a href="Bootstrap.html" class="projects-flex"><h4 id="arrow-right"><em>See next: Website made with Bootstrap</em> <span><i class="fas fa-arrow-right"></i></span></h4></a>
+            </div>
+    </div>
+    
+    <!-- FOOTER -->
+    
+    <footer>
+            <div class="footer-flex-container">
+                <div class="footer-flex-column footer-navigation" id="footer-bottom">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="https://drive.google.com/file/d/1fqp4-u37Q0u90RLLZzpeUVyLe_3El1h_/view?usp=sharing">Resume</a></li>
+                    </ul>
+                </div>
+                <div class="footer-flex-column" id="footer-bottom">
+                    <a href="index.html"><img src="images/Logo.png" class="footer-logo"  alt=""></a>
+                </div>
+                <div class="footer-flex-column last-row">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>
+                        <a href="https://www.linkedin.com/in/angel-ramirez-757218a1/">LinkedIn</a>
+                        </li>
+                        <li><a href="mailto:angel.uidev@gmail.com">angel.uidev@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div id="bottom-footer">
+                <h4 id="float-left">SITE BY ANGEL RAMIREZ</h4>
+                <a href="#"><h4 id="float-right">Back to the top <span><i class="fas fa-arrow-up"></i></span></h4> </a>
+            </div>
+        </footer>
+</div>
+
+	<!-- Script Source Files -->
+
+	<!-- Plugins.js -->
+	<script src="js/plugins.js"></script>
+	<!-- Waypoints https://cdnjs.com/libraries/waypoints
+		https://github.com/imakewebthings/waypoints -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.11.2/js/all.js -->
+	<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+	<!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+	
+	<!-- End of Script Source Files -->
+
+</body>
+</html>
